@@ -1,0 +1,611 @@
+
+/* src/App.css */
+body {
+  
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url("D:\Reactajith\ak\src\images\background webpage.jpg") ;
+  background-size: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: transparent;
+  color:tomato;
+  text-align: center;
+  padding: 20px;
+  /* border: 10px solid red; */
+  height: 20px;
+}
+
+nav ul {
+  /* position: sticky; */
+  list-style-type: none;
+   margin-top: 1px;
+  display: flex;
+  justify-content: flex-end;
+  padding:10px;
+  background: transparent;
+
+}
+h1
+{
+  float: left;
+  margin-top: 0;
+  background: transparent;
+  color:aquamarine;
+  text-shadow: 2px 2px 4px #07bef0, -2px -2px 4px #0a487485;
+
+  font-size: 35px;
+}
+h1:hover{
+  color:skyblue;
+  font-size: 37px;
+}
+
+nav li {
+  display: inline-block;
+
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 25px;
+  color:cyan;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+  background: transparent;
+}
+
+nav li:hover {
+  color: #ff9900;
+}
+@keyframes backIndown
+{
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateX(25%);
+  }
+
+  75% {
+    transform: translateX(-10%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+  
+}
+
+
+
+
+
+
+
+
+#contact {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Navbar.css */
+/* .navbar {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-list li {
+  margin-right: 20px;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar-closed {
+  background-color: #333;
+}
+
+.navbar-open {
+  background-color: #444;
+}
+
+.menu-toggle {
+  cursor: pointer;
+} */
+
+/* *
+{
+  inset:0;
+  width: 100%;
+  background-color:black;
+}
+.title 
+{
+  position: relative;
+  width:100%;
+  height: 4rem;
+
+  background: transparent;
+  
+}
+.h1{
+  position: absolute;
+  color: yellow;
+  font-size: 28px;
+  
+  font-family: 'Times New Roman', Times, serif ;
+  animation: zoominup 2s ease-in-out ;
+} 
+  
+@keyframes zoominup
+{
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1; /* Gradually fade in to full opacity */
+    /* transform: translateY(0); Move element to its original position
+  }
+  
+}
+
+
+.navbar
+{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+left: 220PX;
+top:9px;  
+
+
+}
+a
+{position:relative;
+  text-decoration: none;
+
+  font-size: 30px;
+  color:aqua;
+  left: 600px;
+  padding: 20px;
+  font-weight: bolder;
+  animation: text 5s ease-in-out;
+} 
+a:hover
+{position:relative;
+  text-decoration: none;
+
+  font-size: 30px;
+  color:rgb(217, 255, 0);
+  left: 600px;
+  padding: 20px;
+  font-weight: bolder;
+  animation: text 5s ease-in-out;
+} 
+a:active
+{position:relative;
+  text-decoration: none;
+
+  font-size: 30px;
+  color:rgba(217, 255, 0, 0.592);
+  left: 600px;
+  padding: 20px;
+  font-weight: bolder;
+  animation: text 5s ease-in-out;
+} 
+  
+@keyframes text 
+{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+} */ 
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }}
+/* .ajith
+{
+  width: 100%;
+  border: none;
+   /* background-color: rgb(41, 65, 71); */
+/*    
+   margin-top: -30px;
+   color :white;
+   }
+   .ak{
+    color: rgb(41, 65, 71);
+    font-size: 20px;
+   }
+   #ak1
+   {
+    width:300px;
+    height: 300px;
+
+    color:rgb(41, 65, 71);
+    
+   }
+   span{
+    color:red
+   }
+   
+#res  
+   {
+    color:darkgreen;
+    font-size: 30px;
+    
+    
+   }
+   #res1,#res2,#res3
+   {
+    color: blue;
+   }
+   h1{
+    color: red;
+   }
+   
+   
+    
+   
+button
+{
+  margin-left: 1000px;
+  background-color:red;
+  width: 3rem;
+  height:3rem;
+  font-size: 30px;
+  color:whitesmoke;
+} */ 
+/* button:hover
+{
+  
+  background-color: rgb(199, 48, 48);
+  color: white;
+  animation: ajith 5s  infinite; 
+}
+@keyframes ajith {
+  0%{transform: rotate x(0deg);}
+   50%{transform: rotate(360deg);}
+  70%{transform: rotate(20deg);}
+  100%{transform: rotate(100deg);}
+  
+} */ 
+    
+  
+/* #ak2 input 
+{ 
+   margin-right: 1000px;
+  border:2px solid cadetblue;
+  width: 300px;
+  height: 20px;
+  
+  }
+  #ak3
+  {
+    /* position: relative; */
+    /* margin-left: 100px;
+    }
+    #img2
+    {
+      width: 400px;
+      height: 290px;
+      margin-top: -80px;
+      background-color: black;
+      
+
+    }
+   
+    #img2
+    {
+      width: 400px;
+      height: 290px;
+      margin-top: -80px;
+
+    } */
+   
+    /* #img1
+    {
+      width: 250px;
+      height: 250px;
+      margin-top: -50px;
+
+    } */ 
+   
+    
+    
+   
+/* button
+{ width: 20px;
+  height: 20px;
+  margin-left: 800px;
+  background-color: aqua;
+  margin-right: 700px;
+  
+
+}
+h1{
+  margin-left: 800px;
+}
+span{
+  margin-left: 700px;
+}
+#ajith
+{
+   width: 300px; 
+  height: 5px; 
+   margin-right: 800px; 
+
+  margin-top: 900px;
+  font-size: 20px;
+  color: red;
+}
+#button
+{
+  margin-left: 100px;
+} */
+/* *
+{
+  inset:0;
+  width: 100%;
+  height: 100px;
+  background: url("D:\Reactajith\ak\src\images\NATURE.jpg");
+  background-position:cover;
+  background-size: cover;
+}
+  #ak1
+    {
+  position: relative;
+      width: 100%;
+      height: 900px;
+    margin-left: 0px;
+    margin-top: 1px;
+    font-size: 80px;
+    color:#00f5c4;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 20px rgba(6, 247, 255, 0.533);
+    /* border:10px solid #e82709a0; */
+/*     
+    
+  }
+  h1{
+    position:absolute ;
+  margin-top: 1px;
+  font-size: 80px;
+     animation:header  ease-out 5s ; 
+     background:transparent;
+
+  }
+  @keyframes header {
+  
+    
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+    }
+  
+
+  
+#text
+{
+  position: relative;
+}
+.search-container {
+  position: absolute;
+ width: 800px;
+ height: 500px;
+ /* border: 10px solid red; */
+ 
+ /* top:100px;
+ left:500px;
+ background: transparent;
+  
+}
+#search
+{
+  position: absolute;
+  color:cyan ;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  
+  
+  margin-bottom: 100PX;
+  margin-top: 100PX;
+  /* border: 10px solid #00f5c4; */
+  /* width: 300px;
+  height: 10px;
+  background: transparent;
+}
+input{
+  width: 300px;
+  height: 20px;
+  top:-2px;
+  left: 270px;
+  font-size: 30px;
+  color: #00f5c4;
+  background: transparent;
+}
+
+.search-box {
+  position: absolute;
+  padding: 10px;
+  border: 5px solid #09bfe8a0;
+  border-radius: 20px;
+  transition: width 0.3s ease-in-out;
+  width: 300px;
+  height: 20px;
+  top:-2px;
+  left: 270px;
+  
+  
+}
+
+.search-box:focus  {
+  width: 450px;
+  z-index: inherit;
+}
+
+
+.search-icon {
+  position: absolute;
+  width: 30px;
+  top: 20px;
+  left:550px;
+  
+  transform: translatey(-50%);
+  color: #00f5c4;
+  cursor: pointer;
+  
+  background: transparent;
+}
+ 
+
+ td
+{ text-align: center;
+  width: 100px;
+  font-size: 20px;
+  color:red;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+;
+}
+  table
+{ position:absolute;
+  width: 500px;
+  height: 1px;
+  top:300px;
+  left: 600px;
+  bottom: 10px;
+  border: 5px solid darkcyan;
+  font-size: 30px;
+  color: aqua;
+  background:transparent
+  
+}
+
+  #clouds
+{perspective: 1000px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-top: 200px;
+  margin-left: 100px;
+  border: 10px solid #5f9ea0;
+  border-radius: 50%; 
+  box-shadow: inset;
+  animation: slide 5s  infinite ;
+}
+@keyframes slide {
+  
+    0% {
+      transform: perspective(400px) rotateY(0);
+    }
+  
+    50% {
+      
+      transform: perspective(400px) rotateY(180deg);
+    }
+  
+    100% {
+      transform: perspective(400px) rotateY(360deg);
+    }
+  }
+
+#error
+{
+  position: absolute;
+  color: #00f5c4;
+  font-size: x-large;
+}  */ 
+ 
+
+
+
+ 
+
+

@@ -1,0 +1,207 @@
+#about 
+{
+  
+  
+  
+  
+  width:100%;
+  height: 700px;
+  top:-10px;
+   /* border: 5px solid rgb(0, 191, 255); */
+  /* box-shadow: 10px 20px 30px 5px cyan;  */
+  font-size: 25px;
+  color:thistle;
+  text-align: left;
+  background: transparent;
+  overflow: visible;
+  background-image: url("D:\Reactajith\ak\src\images\background webpage.jpg") ;
+  background-size: 100%;
+    box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+.about
+{
+  
+  /* border: 10px solid rgb(8, 0, 255); */
+
+  height:800px;
+}
+
+
+#about h2 {
+  margin-top:50px ;
+  font-size: 32px;
+  
+  color:wheat;
+  /* animation: fadeInTopLeftAnimation 2s ease-in-out; */
+}
+#about h2:hover
+{
+  font-size: 35px;
+  
+  color:orange;
+}
+
+#about p {
+  position: relative;
+  font-size: 21px;
+  /* border: 10px solid red; */
+  width: 500px; 
+  height: 600px;
+  text-align: left;
+  font-family: "";
+  top:110px;
+  
+   /* animation: fadeInTopLeftAnimation 2s ease-in-out; */
+}
+#about p:hover{
+  font-size: 21px;
+  color:aliceblue;
+
+}
+@keyframes fadeInTopLeftAnimation {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  to {
+    opacity: 1; 
+    transform: translate(0, 0);
+  }
+}
+.education 
+{
+  position:relative;
+  width: 500px;
+  height: 530px;
+  /* border: 10px solid cyan;   */
+  left: 800px;
+  top: -730px;
+  font-size: 25px;
+  
+  text-align: center;
+}
+
+@keyframes fadeInTopRightAnimation {
+      from {
+        opacity: 0;
+        transform: translate(50%, -50%);
+      }
+
+      to {
+        opacity: 1; /* Gradually fade in to full opacity */
+        transform: translate(0, 0); /* Move the element to its original position */
+      }
+    }
+    
+table
+{
+  position: absolute;
+  width:500px;
+  height: 500px;
+  font-size: 20px;
+margin-top:10px;
+/* border: 10px solid red; */
+} 
+
+ .education h2{
+  position: relative;
+  /* border: 10px solid red; */
+  top:-30px;
+}
+
+td
+{position: relative;
+bottom: 50px;
+  text-align: center;
+  color: thistle;
+  /* border: 10px solid red; */
+  font-size: 22px;
+  /* animation: fadeInRight 3s ease initial; */
+}
+td:hover
+{
+  font-size: 24px;
+  color: aliceblue;
+
+}
+
+
+
+ 
+/* .about
+{
+  position: fixed;
+  left:10px;
+  
+  margin-top: 150px;
+  width:600px;
+  height: 520px;
+   border: 10px solid rgb(0, 191, 255);
+  box-shadow: 10px 20px 30px 5px cyan; 
+  font-size: 22px;
+  color:rgb(200, 205, 50);
+  text-align: left;
+  background: transparent;
+  overflow: visible;
+  
+
+      animation: fadeInTopLeftAnimation 2s ease-in-out;
+
+  
+} 
+@keyframes fadeInTopLeftAnimation {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  to {
+    opacity: 1; 
+    transform: translate(0, 0);
+  }
+}
+span{
+
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  color: cyan;
+}
+.education 
+{
+  
+  width: 600px;
+  height: 600px;
+  border: 10px solid cyan;
+  left: 900px;
+  top:150px;
+  overflow: hidden;
+  
+  font-size: 20px;
+  color:aliceblue;
+   animation: fadeInTopRightAnimation 2s ease-in-out;
+} 
+@keyframes fadeInTopRightAnimation {
+      from {
+        opacity: 0;
+        transform: translate(50%, -50%);
+      }
+
+      to {
+        opacity: 1; 
+        transform: translate(0, 0);  
+      }
+    }
+table
+{
+  
+  width:600px;
+  height: 600px;
+}
+td{
+  
+  font-size: 18px;
+} */
